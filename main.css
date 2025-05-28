@@ -1,0 +1,33 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+} 
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-wrap: break-word;
+}
+
+.steam-app-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
+
+.steam-app {
+    
+    min-width: 176px !important;
+}
+
+.steam-app-footer {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2em;
+}
+
+.steam-app-image {
+    background-size: contain !important;
+}

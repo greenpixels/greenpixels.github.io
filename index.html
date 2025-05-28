@@ -1,12 +1,163 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-</head>
-<body>
-    Hello World!
-</body>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Greenpixels</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body>
+        <header
+            style="display: flex; justify-content: space-between; background-color: rgb(0, 0, 0); padding: 1em; color: white">
+            <span>Sven Teigler - greenpixels</span>
+        </header>
+        <div
+            style="padding: 1em; max-width: calc(50% + 5rem); margin-left: auto; margin-right: auto;">
+            <div
+                style="display: flex; justify-content: center; padding: 2em; ">
+                <img
+                    alt="Pixel Portrait of the Author greenpixels, Sven Teigler"
+                    src="./public/greenpixels-pixel-portrait.webp"
+                    style="image-rendering: pixelated; width: 25%; min-width: 200px; border-radius: 100%; filter: drop-shadow(10px 10px 10px #3535356c)" />
+            </div>
+            <div
+                style="display: flex; justify-content: center; padding: 2em; gap: 2em; flex-wrap: wrap;">
+                <a target="_blank"
+                    href="https://bsky.app/profile/greenpixels.itch.io"
+                    title="Follow greenpixels on bsky.app">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 -3.268 64 68.414" width="3em" height="3em">
+                        <path
+                            d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805zm36.254 0C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745z" />
+
+                    </svg>
+                </a>
+                <a target="_blank"
+                    href="https://github.com/greenpixels"
+                    title="Follow greenpixels on GitHub">
+                    <svg width="3em" height="3em" viewBox="0 0 1024 1024"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+                            transform="scale(64)" fill="#1B1F23" />
+                    </svg>
+                </a>
+                <a target="_blank"
+                    href="https://www.youtube.com/channel/UCpoT1Zv8MzeNjWfki7HmY9Q"
+                    title="Follow greenpixels on Youtube">
+
+                    <svg height="3em" viewBox="-21 -117 682.66672 682"
+                        width="3em" xmlns="http://www.w3.org/2000/svg"><path
+                            d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0" /><script
+                            xmlns /></svg>
+                </a>
+                <a target="_blank"
+                    href="https://discord.gg/qe5FZbpFAE"
+                    title="Join the greenpixels Discord">
+
+                    <svg width="3em" height="3em" viewBox="0 -28.5 256 256"
+                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        preserveAspectRatio="xMidYMid">
+                        <g>
+                            <path
+                                d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"
+                                fill-rule="nonzero">
+
+                            </path>
+                        </g></svg>
+                </a>
+                <a target="_blank"
+                    href="https://greenpixels.itch.io/"
+                    title="Follow greenpixels on itch.io">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" height="3em"
+                        width="3em"
+                        viewBox="0 0 245.371 220.736"><path
+                            d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z"
+                            color="#000" /></svg>
+                </a>
+
+            </div>
+            <div
+                style="display: flex; flex-direction: column; text-align: justify;">
+                <h1>Sven Teigler - greenpixels</h1>
+                <section>
+                    <h2>About me</h2>
+                    <p>
+                        Hey there! My name is Sven and I am a game developer
+                        from Germany. I've been developing
+                        games since 2016. I grew up playing games on Gameboy
+                        Advance,
+                        Nintendo 64 and Playstation 2. Some of my favorite games
+                        from then were <em>The Legend of Zelda: Ocarina of
+                            Time</em>,
+                        <em>Dragon Quest Monsters</em>, <em>Pokemon Emerald
+                            Edition</em> and
+                        <em>Digimon World</em>.
+                    </p>
+                    <p>
+                        The first game projects I created were following
+                        YouTube-Tutorials using <em>JavaFX</em>, which was also
+                        my first dive into programming altogether.
+                        That was when I ultimately decided that
+                        programming is the career path I
+                        wanted to take. In 2018 I applied for an apprenticeship
+                        in software-development and have been working full-time
+                        in that field ever since.
+                    </p>
+                    <p>
+                        Despite working full-time, my love for
+                        game development has not wavered even a little bit. I've
+                        been creating game projects on and off in my free time,
+                        tested out several game engines, libaries and
+                        programming languages and used the knowledge from my
+                        day-job as a strong foundation to strengthen my game-dev
+                        journey. Also, as a kid one of my
+                        favorite hobbies was drawing - with game development I
+                        was able to channel that creative hobby by creating
+                        pixel art for most my projects. You can see some of my
+                        pixel art work down below.
+                    </p>
+                    <p>
+                        In 2023 I released my first (free) Steam game -
+                        <em>Dungeon Mage</em>. <em>Dungeon Mage</em> was a great
+                        first
+                        step into
+                        turning my hobby into something more serious.
+                        I started creating a Discord, keeping in touch with the
+                        community and created more game projects over the next
+                        years.
+                    </p>
+                    <p>
+                        The most recent project I am working on is
+                        <em>Gamblers Table</em> where I am the programmer
+                        and also contribute partially as an artist - together
+                        with Bossforge as the main artist.
+                    </p>
+                </section>
+                <section>
+                    <h2>Game Projects</h2>
+                    <p>
+                        I've developed several games on my itch.io that you can
+                        download and play for free. I've also created steam apps
+                        that you can view here:
+                    </p>
+                    <div
+                        style="display: flex; justify-content: center; flex-wrap: wrap; padding: 2em; gap: 1em">
+                        <iframe
+                            src="https://store.steampowered.com/widget/3618390/"
+                            frameborder="0" width="600" height="225"></iframe>
+                        <iframe
+                            src="https://store.steampowered.com/widget/2333420/"
+                            frameborder="0" width="600" height="225"></iframe>
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+    </body>
 </html>
